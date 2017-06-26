@@ -22,6 +22,7 @@ namespace AddMp3TrackNumber
             {
                 Console.WriteLine("Usage: AddMp3TrackNumber folder_name [rename]");
                 Console.WriteLine("Add [rename] parameter to make changes, otherwise will just print the names to change.");
+                return;
             }
 
             if (args.Length >= 1)
